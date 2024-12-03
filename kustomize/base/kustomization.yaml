@@ -1,0 +1,4 @@
+helmCharts:
+- name: hello-api-charts
+  path: ./hello-api-charts/hello-api
+  valuesFile: ./hello-api-charts/hello-api/values.yaml

@@ -1,0 +1,12 @@
+replicaCount: 1
+image:
+  tag: "1.21-dev"
+service:
+  type: NodePort
+ingress:
+  enabled: true
+  hosts:
+  - host: dev.my-app.local
+    paths:
+    - path: /
+      pathType: Prefix

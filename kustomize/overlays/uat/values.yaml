@@ -1,0 +1,12 @@
+replicaCount: 5
+image:
+  tag: "1.21-prod"
+service:
+  type: LoadBalancer
+ingress:
+  enabled: true
+  hosts:
+  - host: prod.my-app.local
+    paths:
+    - path: /
+      pathType: Prefix

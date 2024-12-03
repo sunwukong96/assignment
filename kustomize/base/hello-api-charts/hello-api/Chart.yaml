@@ -1,0 +1,4 @@
+apiVersion: v2
+name: hello-api
+description: for assignment
+version: 0.1.0
