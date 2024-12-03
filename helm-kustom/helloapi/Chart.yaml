@@ -1,5 +1,0 @@
-apiVersion: v1
-name: helloapi
-description: test
-type: application
-version: 0.1.0
