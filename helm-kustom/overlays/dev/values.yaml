@@ -1,0 +1,7 @@
+replicaCount: 5
+image:
+  repository: my-app-production
+  tag: "v2.0.0"
+service:
+  type: LoadBalancer
+  port: 80
