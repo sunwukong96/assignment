@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  app.kubernetes.io/name: helloapi
+spec:
+  replicas: 2
+  template:
+    spec:
+      containers:
+      - name: helloapi
+        image: scarifcitadel/helloapi:v0.1.0

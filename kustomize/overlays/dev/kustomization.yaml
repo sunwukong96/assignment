@@ -1,0 +1,10 @@
+resources:
+- ../../base
+
+patches:
+- target:
+    kind: Deployment
+    name: my-app
+  path: patch-deployment.yaml
+
+namespace: dev
