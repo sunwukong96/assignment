@@ -3,9 +3,9 @@ kind: Deployment
 metadata:
   name: helloapi
 spec:
-  replicas: 2
+  replicas: 1
   template:
     spec:
       containers:
       - name: helloapi
-        image: scarifcitadel/helloapi:v0.1.0
+        image: docker.io/scarifcitadel/helloapi:v0.2.0  # Updated image
