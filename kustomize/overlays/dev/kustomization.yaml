@@ -6,5 +6,9 @@ patches:
     kind: Deployment
     name: helloapi
   path: patch-deployment.yaml
+- target:
+    kind: Service
+    name: helloapi-svc
+  path: patch-svc.yaml
 
 namespace: dev
