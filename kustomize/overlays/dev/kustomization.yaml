@@ -4,7 +4,7 @@ resources:
 patches:
 - target:
     kind: Deployment
-    name: my-app
+    name: helloapi
   path: patch-deployment.yaml
 
 namespace: dev
