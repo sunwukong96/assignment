@@ -7,11 +7,11 @@ spec:
   project: default
   source:
     repoURL: https://github.com/sunwukong96/assignment.git
-    targetRevision: main # Replace with your branch or tag
+    targetRevision: main
     path: kustomize/overlays/dev
   destination:
     server: https://kubernetes.default.svc
-    namespace: dev # Replace with your desired namespace
+    namespace: dev
   syncPolicy:
     automated:
       prune: true
