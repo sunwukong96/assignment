@@ -21,7 +21,7 @@ pipeline {
                     
                     def patchContent = readFile(patchFile)
                     
-                    def updatedContent = patchContent.replaceAll(/scarifcitadel\\/helloapi:.*/, "scarifcitadel/helloapi:${env.IMAGE_TAG}")
+                    def updatedContent = patchContent.replaceAll(docker.io\\/scarifcitadel\\/helloapi:.*/, "scarifcitadel/helloapi:${env.IMAGE_TAG}")
                     
                     writeFile(file: patchFile, text: updatedContent)
                 }
