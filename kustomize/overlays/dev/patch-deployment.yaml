@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
       - name: helloapi
-        scarifcitadel/helloapi:v0.1.0
+        mage: scarifcitadel/helloapi:v0.1.0
