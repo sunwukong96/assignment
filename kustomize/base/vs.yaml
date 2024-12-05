@@ -13,6 +13,6 @@ spec:
         prefix: /helloapi
     route:
     - destination:
-        host: helloapi.dev.svc.cluster.local
+        host: helloapi-svc.dev.svc.cluster.local
         port:
           number: 80
