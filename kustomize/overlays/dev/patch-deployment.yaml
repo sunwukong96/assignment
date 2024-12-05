@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
       - name: helloapi
-        image: my-registry/my-app:v0.2.0
+        scarifcitadel/helloapi:v0.2.0
