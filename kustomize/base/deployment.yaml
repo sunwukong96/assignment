@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: helloapi
-        image: scarifcitadel/helloapi:v0.1.0
+        image: docker.io/scarifcitadel/helloapi:v0.1.0
         ports:
         - containerPort: 8080
