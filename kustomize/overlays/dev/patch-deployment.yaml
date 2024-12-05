@@ -8,4 +8,4 @@ spec:
     spec:
       containers:
       - name: helloapi
-        image: scarifcitadel/helloapi:v0.2.0
+        image: docker.io/scarifcitadel/helloapi:v0.2.0
