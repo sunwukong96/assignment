@@ -3,5 +3,5 @@ kind: Service
 metadata:
   name: helloapi-svc
 spec:
-  type: NodePort
+  type: ClusterIP
 
